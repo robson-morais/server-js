@@ -16,9 +16,9 @@ const app = express()
 
 // Dados simulados para os posts
 const posts = [
-    { id: 1, descricao: "imagem 1", imagem: "https://placecats.com/millie/300/150"},
-    { id: 2, descricao: "imagem 2", imagem: "https://placecats.com/millie/300/150"},
-    { id: 3, descricao: "imagem 3", imagem: "https://placecats.com/millie/300/150"}
+    { id: 1, descricao: "imagem 1 do local", imagem: "https://placecats.com/millie/300/150"},
+    { id: 2, descricao: "imagem 2 do local", imagem: "https://placecats.com/millie/300/150"},
+    { id: 3, descricao: "imagem 3 local", imagem: "https://placecats.com/millie/300/150"}
 ];
 
 // Adiciona o middleware express.json() para que o servidor consiga entender requisições com corpo JSON
