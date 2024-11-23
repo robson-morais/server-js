@@ -1,5 +1,6 @@
 // Importa o pacote dotenv para gerenciar variáveis de ambiente
 import dotenv from 'dotenv';
+import 'dotenv/config';
 // Carrega as variáveis de ambiente definidas no arquivo .env para o process.env
 dotenv.config();
 import { ObjectId } from 'mongodb';
