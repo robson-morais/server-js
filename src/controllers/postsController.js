@@ -2,7 +2,6 @@ import {getAllPosts, criarPost, atualizarPost} from "../models/postsModel.js";
 import fs from "fs";
 import gerarDescricaoComGemini from "../services/gemini.js";
 
-
 export async function listarPosts (req, res) {
     const posts = await getAllPosts();
     res.status(200).json(posts);
